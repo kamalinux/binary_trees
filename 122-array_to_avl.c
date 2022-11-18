@@ -11,7 +11,7 @@ avl_t *array_to_avl(int *array, size_t size)
 	avl_t *tree;
 	size_t i;
 
-    tree = NULL;
+	tree = NULL;
 
 	for (i = 0; i < size; i++)
 	{
