@@ -68,7 +68,7 @@ int check_parent(const binary_tree_t *tree)
  */
 int binary_tree_is_heap(const binary_tree_t *tree)
 {
-	if (!is_complete(tree))
+	if (!binary_tree_is_complete(tree))
 		return (0);
 
 	return (check_parent(tree->left) && check_parent(tree->right));
