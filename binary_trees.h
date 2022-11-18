@@ -68,6 +68,8 @@ bst_t *r_l_case(bst_t *node, bst_t *root);
 int binary_tree_is_avl(const binary_tree_t *tree);
 avl_t *avl_insert(avl_t **tree, int value);
 avl_t *array_to_avl(int *array, size_t size);
+
 avl_t *sorted_array_to_avl(int *array, size_t size);
+int binary_tree_is_heap(const binary_tree_t *tree);
 
 #endif /* _BINARY_TREES_H_ */
