@@ -62,5 +62,8 @@ int is_bst(const binary_tree_t *tree, const binary_tree_t *min,
 bst_t *bst_insert(bst_t **tree, int value);
 bst_t *array_to_bst(int *array, size_t size);
 bst_t *bst_search(const bst_t *tree, int value);
+bst_t *bst_remove(bst_t *root, int value);
+bst_t *r_case(bst_t *node, bst_t *root);
+bst_t *r_l_case(bst_t *node, bst_t *root);
 
 #endif /* _BINARY_TREES_H_ */
